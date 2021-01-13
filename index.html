@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Range Slider</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <!--Plugin CSS file with desired skin-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"
+        />
+
+        <!--jQuery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!--Plugin JavaScript file-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <input
+                type="text"
+                class="js-range-slider"
+                name="my_range"
+                data-values="<5, 6-8, 8-10, 10-12, 12-14, 14-16, 16-18, 19-24,
+            25-29, 30-34, 35-39, 40-44, 45-49, 50-59, >60"
+                data-grid="true"
+            />
+            <p class="value-display"><5</p>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
